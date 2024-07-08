@@ -103,7 +103,7 @@ h1 {
 
     h1 {
         font-size: 3rem;
-        margin-bottom: 0rem;
+        margin-bottom: -2rem;
     }
 }
 
@@ -120,6 +120,6 @@ h1 {
 
     h1 {
         font-size: 2rem;
-        margin-bottom: 0rem;
+        margin-bottom: -3rem;
     }
 }
