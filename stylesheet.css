@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -69,11 +69,15 @@ h1 {
 
 .front-card {
     background: var(--border-color);
+    background-size: contain; /* or cover based on your design */
+    background-position: center center;
 }
 
 .back-card {
     transform: rotateY(180deg);
     background: var(--bg-card);
+    background-size: contain; /* or cover based on your design */
+    background-position: center center;
 }
 
 .card_selected {
@@ -88,13 +92,9 @@ h1 {
     #card-section {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 2rem;
-        max-width: 100%;
     }
 
     .card {
-        position: relative;
-        transition: all 0.4s linear;
-        transform-style: preserve-3d;
         height: 7rem;
         width: 7rem;
     }
@@ -109,19 +109,14 @@ h1 {
     #card-section {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
-        max-width: 100%;
     }
 
     .card {
-        position: relative;
-        transition: all 0.4s linear;
-        transform-style: preserve-3d;
         height: 6rem;
         width: 6rem;
     }
 
     h1 {
-
         font-size: 2rem;
         margin-bottom: 1rem;
     }
