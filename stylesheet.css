@@ -69,14 +69,16 @@ h1 {
 
 .front-card {
     background: var(--border-color);
-    background-size: contain; /* or cover based on your design */
+    background-size: contain;
+    /* or cover based on your design */
     background-position: center center;
 }
 
 .back-card {
     transform: rotateY(180deg);
     background: var(--bg-card);
-    background-size: contain; /* or cover based on your design */
+    background-size: contain;
+    /* or cover based on your design */
     background-position: center center;
 }
 
@@ -101,7 +103,7 @@ h1 {
 
     h1 {
         font-size: 3rem;
-        margin-bottom: 2rem;
+        margin-bottom: 0.1rem;
     }
 }
 
@@ -118,6 +120,6 @@ h1 {
 
     h1 {
         font-size: 2rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 }
