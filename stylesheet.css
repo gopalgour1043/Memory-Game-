@@ -87,10 +87,14 @@ h1 {
 @media (max-width: 800px) {
     #card-section {
         grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+        max-width: 100%;
     }
 
     .card {
-
+        position: relative;
+        transition: all 0.4s linear;
+        transform-style: preserve-3d;
         height: 7rem;
         width: 7rem;
     }
@@ -104,10 +108,14 @@ h1 {
 @media (max-width: 580px) {
     #card-section {
         grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        max-width: 100%;
     }
 
     .card {
-
+        position: relative;
+        transition: all 0.4s linear;
+        transform-style: preserve-3d;
         height: 6rem;
         width: 6rem;
     }
