@@ -13,7 +13,7 @@ Move counter to keep track of the number of attempts made.
 Win condition alert showing the time taken and moves made upon completing the game.
 
 Installation
-1.Clone the repository:git clone https://github.com/gopalgour1043/Memory-Game-.git
+1.Clone the repository: "git clone https://github.com/gopalgour1043/Memory-Game-.git"
 
 2.Open index.html in your web browser to play the game.
 
