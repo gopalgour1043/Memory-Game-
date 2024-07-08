@@ -83,3 +83,38 @@ h1 {
 .card_match .front-card {
     background-color: var(--bg-card);
 }
+
+@media (max-width: 800px) {
+    #card-section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card {
+
+        height: 7rem;
+        width: 7rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 580px) {
+    #card-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+
+        height: 6rem;
+        width: 6rem;
+    }
+
+    h1 {
+
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+}
