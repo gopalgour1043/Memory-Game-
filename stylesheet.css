@@ -93,7 +93,7 @@ h1 {
 @media (max-width: 800px) {
     #card-section {
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 2rem;
+        grid-gap: 1rem;
     }
 
     .card {
@@ -110,7 +110,7 @@ h1 {
 @media (max-width: 580px) {
     #card-section {
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 2rem;
+        grid-gap: 0.8rem;
     }
 
     .card {
